@@ -1,0 +1,70 @@
+/*style*/
+<style>
+      * {
+  margin: 0;
+}
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #fff4f4;
+}
+
+.card {
+  width: 400px;
+  height: 610px;
+  background: #fff;
+  
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.16);
+  display: inline-block;
+  margin-right: 40px;
+}
+.card:last-child {
+  margin-right: 0;
+}
+
+.card > .info {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.h1 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 35px;
+}
+.card h4  {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 35px;
+}
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 26px;
+}
+.link_btn {
+  display: block;
+  border: 1px solid #000000;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #707070;
+}
+.link_btn:hover {
+  background: rgba(0,0,0,0.1);
+}
+
+section {
+  
+  width: 1288px;
+  position: absolute;
+  
+  left: 50%;
+  margin-left: calc(-1288px / 2);
+ 
+  top: 50%; 
+  margin-top: calc(-610px / 2);
+}
